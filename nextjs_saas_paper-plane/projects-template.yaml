@@ -8,8 +8,8 @@ variant: paper-plane
 default: true
 variant_description: Vercel • Neon • Clerk • Resend • PostHog
 install_command: npm install && npm run setup:stripe
-# Pinned commit. Update after pushing.
-ref: REPLACE_WITH_PINNED_COMMIT
+# Pinned commit of the previous push; the registry copy is authoritative.
+ref: e7b3c2c654c566d99fca2e529a0e8a6df517d216
 repo: https://github.com/resend/stripe-projects-templates/tree/main/nextjs_saas_paper-plane
 metadata:
   name: Next.js SaaS + Resend
