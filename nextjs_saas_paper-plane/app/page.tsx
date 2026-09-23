@@ -189,7 +189,7 @@ export default async function HomePage() {
                         { label: 'Sign Up', path: '/sign-up', description: 'Create an account', services: [{ label: 'Clerk', icon: '/icons/clerk.svg' }] },
                         { label: 'Sign In', path: '/sign-in', description: 'Log into your account', services: [{ label: 'Clerk', icon: '/icons/clerk.svg' }] },
                         { label: 'Checkout', path: '/checkout', description: 'Subscribe to a plan', services: [{ label: 'Stripe', icon: '/icons/stripe.svg' }] },
-                        { label: 'Success', path: '/success', description: 'Subscription confirmed', services: [{ label: 'Stripe', icon: '/icons/stripe.svg' }] },
+                        { label: 'Success', path: '/success', description: 'Subscription confirmed, welcome email sent', services: [{ label: 'Stripe', icon: '/icons/stripe.svg' }, { label: 'Resend', icon: '/icons/resend.svg' }] },
                         { label: 'Cancel', path: '/cancel', description: 'Subscription cancelled', services: [{ label: 'Stripe', icon: '/icons/stripe.svg' }] },
                         { label: 'Health', path: '/api/health', description: 'System status check', services: [{ label: "Vercel", icon: "/icons/vercel.svg" }] },
                       ].map((page) => (
